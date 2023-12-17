@@ -84,7 +84,7 @@ body {
 }
 
 .teks h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: 'Whisper', cursive;
     color: #102C57;
 }
@@ -124,7 +124,7 @@ body {
     height: 20%;
     position: absolute;
     left: 5%;
-    top: 5%;
+    top: -5%;
 }
 
 .bottom-left {
@@ -167,6 +167,7 @@ body {
     position: relative;
     width: 60%;
     height: 60%;
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -266,6 +267,13 @@ body {
     flex-direction: column;
 }
 
+.teks-wrapper h1 {
+    font-size: 1.5rem;
+}
+
+.teks-wrapper p {
+    font-size: .8rem;
+}
 /* Hobby */
 
 #hobby {
@@ -283,6 +291,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 50px;
 }
 
 
@@ -333,20 +342,21 @@ body {
     height: 80vh;
     position: relative;
     background: #EADBC8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 form {
-    width: 20%;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 form input, textarea {
-    padding: 10px;
+    padding: 7px;
     outline: none;
     border: none;
     border-radius: 10px;
